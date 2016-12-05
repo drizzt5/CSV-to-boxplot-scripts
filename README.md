@@ -6,7 +6,7 @@ I wrote these scripts for a project that required a lot of box plots. They are h
 Just edit the ylabel in the program if you need to change it.
 
 
-*MultiCsvSingleCsv.py
+* MultiCsvSingleCsv.py
 - Takes multi CSV and makes them one CSV. Takes CSV paths as arguments and prompts for output name in program.
 
 * MultiCsvMultiBP.py
