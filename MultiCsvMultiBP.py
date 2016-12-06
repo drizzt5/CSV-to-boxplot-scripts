@@ -48,7 +48,8 @@ if __name__ == "__main__":
 		else:
 			print "System Exit: Invalid Command. Must use -x"
 			sys.exit()		
-	
-	plt.ylabel('Percentage of Paths with ICMPext')
+
+	yaxisname = raw_input("Enter the yaxis label: ")	
+	plt.ylabel(yaxisname)
 	plt.boxplot(bpdata, notch=False, patch_artist=True)
 	plt.savefig(ofile)
