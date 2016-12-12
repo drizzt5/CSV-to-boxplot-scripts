@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 #
-# Program: Take some csv files and spit out boxplots
+# Program: Take some csv files and spit out a single csv
 # Author: Dillon Glasser <dpglasse@nps.edu>
 # 
-# Usage: python {Program}.py [path] [destination/filename] [optional x axis name]
+# Usage: python {Program}.py [path to all the CSV files]
+# The program will prompt you for the output filename
 
 
 import sys
